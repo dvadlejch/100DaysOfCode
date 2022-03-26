@@ -33,5 +33,5 @@ letters_chosen = random.choices(letters, k=nr_letters)
 numbers_chosen = random.choices(numbers, k=nr_numbers)
 symbols_chosen = random.choices(symbols, k=nr_symbols)
 joined_chosen = letters_chosen + numbers_chosen + symbols_chosen
-print(''.join(permutate(joined_chosen)))
+print("Generated password: " + ''.join(permutate(joined_chosen)))
 # print(f"Generated password is: {random.shuffle(joined_chosen)}")
